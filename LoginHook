@@ -58,8 +58,8 @@ main() {
     BINARY_EXIT=${?}
     log "Cauliflower Vest exited with ${BINARY_EXIT}"
   else
-    log "Cauliflower Vest doesn't exist! Please contact helpdesk!"
-    echo "Cauliflower Vest doesn't exist! Please visit helpdesk!"
+    log "Cauliflower Vest doesn't exist! Please contact TechTable!"
+    echo "Cauliflower Vest doesn't exist! Please visit TechTable!"
     sleep 10
   fi
 
@@ -83,11 +83,9 @@ main() {
 
   # Here, we've either already bailed out, or failed, soooo...
   echo "Cauliflower Vest couldn't encrypt your disk."
-  echo "Please contact helpdesk immediately!"
+  echo "Please contact TechTable immediately!"
   sleep 1000
 }
 
 
 main "${@}"
-
-
